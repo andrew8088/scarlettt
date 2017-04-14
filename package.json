@@ -1,0 +1,19 @@
+{
+  "name": "scarlettt",
+  "version": "0.0.1",
+  "description": "A simple code editor on the web",
+  "main": "index.js",
+  "author": "Andrew Burgess",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^2.1.0",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  }
+}
