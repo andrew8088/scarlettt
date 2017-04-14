@@ -2,7 +2,6 @@
   "name": "scarlettt",
   "version": "0.0.1",
   "description": "A simple code editor on the web",
-  "main": "index.js",
   "author": "Andrew Burgess",
   "license": "MIT",
   "scripts": {
@@ -12,7 +11,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "firebase": "^3.7.6",
     "next": "^2.1.0",
+    "next-redirect": "^1.0.1",
+    "prop-types": "^15.5.8",
     "react": "^15.5.3",
     "react-dom": "^15.5.3"
   }
